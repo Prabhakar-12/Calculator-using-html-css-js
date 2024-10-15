@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> Calulator</title>
+      <link rel="stylesheet" href="style.css" type="text/css">
+      <link rel="stylesheet" href="Utils.css" type="text/css">
+</head>
+
+<body>
+      <h1>WELCOME TO CALCULATE ME</h1>
+      <h2>This is Developed by <em>prabhakar</em></h2>
+
+      <h3 id="1"></h3>
+      <p id="3" style="text-align: center;"></p>
+      <p id="2"></p>
+      <div class="container flex flex-col  items-center   mx-auto m-w-20">
+            <div class="row">
+                  <input type="text" class="input" />
+            </div>
+            <div class="row">
+                  <button class="button">C</button>
+                  <button class="button">%</button>
+                  <button class="button">M+</button>
+                  <button class="button">M</button>
+            </div>
+            <div class="row">
+                  <button class="button">7</button>
+                  <button class="button">8</button>
+                  <button class="button">9</button>
+                  <button class="button">*</button>
+            </div>
+            <div class="row">
+                  <button class="button">4</button>
+                  <button class="button">5</button>
+                  <button class="button">6</button>
+                  <button class="button">/</button>
+            </div>
+            <div class="row">
+                  <button class="button">1</button>
+                  <button class="button">2</button>
+                  <button class="button">3</button>
+                  <button class="button">+</button>
+            </div>
+            <div class="row">
+                  <div class="row"></div>
+                  <button class="button">0</button>
+                  <button class="button">.</button>
+                  <button class="button">=</button>
+                  <button class="button">%</button>
+            </div>
+            <h1>About This</h1>
+            <p>This is very Fast calculators .You can calculate any number as negative or positive number .You will Get
+                  the absolute answere with an second</p>
+            <p id="1"></p>
+            <p id="2"></p>
+            <button onclick="prabhakar()">Want</button>
+            <button onclick="NoPrabha()">Won't</button>
+            <script>
+                  function prabhakar() {
+                        console.log("this is prabhakar site");
+                        alert("If want This calculator ,You have to fill the bellow User Form")
+                  }
+                  function NoPrabha() {
+                        alert("You Don't want this ,You never get like This.Any calculator shouldn't have this type of features!!")
+                  }
+                  // document.getElementById("1").innerHTML = "" + prabhakar();
+                  // document.getElementById("2").innerHTML = "" + NoPrabha();
+
+            </script>
+            <form action="RiGistration">
+                  <label for="name">
+                        Name:<input type="text" id="name" placeholder="UrName">
+                  </label>
+            </form>
+
+
+      </div>
+      <script src="script.js"></script>
+
+
+</body>
+
+</html>
